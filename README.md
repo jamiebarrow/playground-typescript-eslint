@@ -12,6 +12,23 @@ The below steps are outlined in the Getting Started guide in the TypeScript ESLi
     npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint typescript
     ```
 
+2. Configuration through `.eslintrc.json` configuration file in the root of the project.
+
+    ```json
+    {
+        "root": true,
+        "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+        "parser": "@typescript-eslint/parser",
+        "plugins": ["@typescript-eslint"],
+    }
+    ```
+
+3. Running ESLint in the root of the project.
+
+    ```shell
+    npx eslint .
+    ```
+
 ## References
 
 - [Github](https://github.com/typescript-eslint/typescript-eslint)
