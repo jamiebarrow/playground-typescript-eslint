@@ -1,5 +1,11 @@
 {
   "name": "jamiebarrow-playground-typescript-eslint",
   "version": "1.0.0",
-  "description": "A place to play around with typescript-eslint"
+  "description": "A place to play around with typescript-eslint",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.28.0",
+    "typescript": "^4.9.3"
+  }
 }
